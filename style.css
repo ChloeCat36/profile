@@ -38,14 +38,24 @@ a {
     margin: 20px 0px;
     text-align: center;
 }
+#second_card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
 .img-circle {
     border-radius: 50%;
 }
 .btn-blue {
-    background-color: #7189bf;
-    color: white;
+    background-color: #ab93c9;;
+    color: #ffbea3;
     padding: 15px 20px;
     border-radius: 4px;
+    border-width: 50px;
+    text-decoration: underline;
 }
 .list-inline {
     list-style: none;
@@ -53,8 +63,7 @@ a {
     font-size: 50px;
     color: rgb(230, 230, 230);
 }
-}
-.fab fa-github-square {
+.fab {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -62,7 +71,8 @@ a {
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
-    size: 100px;
+    font-size: 100px;
+    color: #ab93c9;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -84,6 +94,9 @@ a {
   }
   .bild_size {
     width: 150px;
+  }
+  .fond_size {
+    display:
   }
 }
 
